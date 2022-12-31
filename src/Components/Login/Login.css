@@ -14,25 +14,50 @@
     border-left-color: transparent;
     border-right-color: transparent;
     outline-color: transparent;
+    width: -webkit-fill-available;
   }
   
-  .loginParentDiv button {
+  .loginParentDiv button  {
     width: 100%;
     height: 48px;
     /* border-color: transparent; */
+    transition: 0.19s;
     background-color: #002f34;
     color: whitesmoke;
     font-weight: 900;
   }
+
   .loginParentDiv button:hover {
     background-color: white;
     color: #002f34;
     border: 2px solid #002f34;
   }
+
+  .signupBtn{
+    margin-top: 10px;
+    font-weight: 500 !important;
+    background-color: white !important;
+    color: #002f34 !important;
+    border: 2px solid #002f34 !important;
+  }
+
+  .signupBtn :hover {
+    background-color: #002f34 !important;
+    color: whitesmoke !important;
+  }
+
+
   
   .loginParentDiv a {
     display: flex;
     justify-content: center;
     cursor: pointer;
+  }
+
+  .errormessage{
+    display: flex;
+    justify-content: center;
+    color: red;
+    margin-top: 650px;
   }
   

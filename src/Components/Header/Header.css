@@ -94,8 +94,8 @@
   margin-right: 5px;
 }
 
-.language svg {
-}
+/* .language svg {
+} */
 
 .span {
   text-decoration: none;
@@ -105,6 +105,14 @@
   font-weight: bolder;
   margin-right: 5px;
 }
+
+
+.loginPage :hover  {
+  color: blue;
+  transform: scale(1.01);
+  cursor: pointer;
+}
+
 
 .loginPage hr {
   margin: 0;
@@ -161,4 +169,14 @@
   .sellMenu {
     display: none;
   }
+}
+
+.logoutBtn{
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.logoutBtn:hover{
+  transform: scale(1.1);
 }

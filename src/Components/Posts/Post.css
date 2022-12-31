@@ -49,6 +49,8 @@
 
 .card .image {
   display: flex;
+  transform: scale(1.3);
+  overflow: hidden;
   justify-content: center;
   align-items: center;
 }
