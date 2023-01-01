@@ -9,6 +9,8 @@ import Home from './Pages/Home';
 import Create from './Pages/Create'
 import View from './Pages/ViewPost'
 
+const API_KEY = process.env.REACT_APP_API_KEY
+
 
 
 function App() {
