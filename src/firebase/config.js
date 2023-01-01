@@ -5,7 +5,7 @@ import 'firebase/storage'
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBXcY8tUwzWoaLO8hxgeeoGLq5ewPNQZWM",
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
   authDomain: "olx-clone-3fdbc.firebaseapp.com",
   projectId: "olx-clone-3fdbc",
   storageBucket: "olx-clone-3fdbc.appspot.com",
